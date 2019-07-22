@@ -1,0 +1,98 @@
+
+html, body{
+	margin: 0;
+  height: 100%;
+	background: rgb(231, 229, 229);
+	font-family: 'Marck Script', cursive, 'Consolas', Arial, Helvetica, sans-serif;
+	color: rgb(1, 10, 17);
+	font-size: 55px;
+	font-weight: 400;
+	background: url(img/bg2.jpg) no-repeat;
+	background-size: cover ;
+	background-position: center center;
+	
+}
+
+.content{
+	width: 60%;
+	float: right;
+	margin: 20px 100px 50px 50px;
+}
+.Author{
+	font-size: 30px;
+	font-family: Arial;
+	float: right;
+}
+.additional-inform{
+	padding-left: 20px;
+	display: inline-block;
+	margin: 10px;
+	height: 400px;
+	width: 250px;
+	border:none;
+}
+.add {
+		margin-left: 0;
+		position: relative;
+		display: inline-block;
+		color: #777674;
+		font-weight: bold;
+		text-decoration: none;
+		text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+		user-select: none;
+		padding: 1em 2em;
+		outline: none;
+		border-radius: 3px / 100%;
+		background-image:
+		 linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+		 linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+		 linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+		 linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+		 linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+		 linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+		background-repeat: no-repeat;
+		background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+		background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+		box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+	}
+	.add:hover {
+		transition: .5s linear;
+		background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+	}
+.add:active {
+		top: 1px;
+	}
+.authors-list{
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+	padding: 0;
+	border: none;
+	margin-left: 0;
+}
+.authors-list * {
+	font-size: 25px;
+	font-family: 'Marck Script';
+	list-style: none;
+}
+.highlight{
+	text-shadow: 2px 5px 8px #000;
+	animation: .7s ease-in-out 0s normal none infinite running pulse;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
